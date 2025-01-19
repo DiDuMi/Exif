@@ -15,3 +15,47 @@
 1. 安装 Python 3.8 或更高版本
 
 2. 克隆本仓库：git clone https://github.com/DiDuMi/ExifCyberBunny.git
+
+3. 创建虚拟环境：
+bash
+cd ExifCyberBunny
+python -m venv venv
+
+4. 激活虚拟环境：
+- Windows:
+  ```bash
+  venv\Scripts\activate
+  ```
+- Linux/Mac:
+  ```bash
+  source venv/bin/activate
+  ```
+
+5. 安装依赖：
+
+pip install -r requirements.txt
+
+## 使用方法
+
+1. 运行程序：
+
+python src/main.py
+
+2. 使用方式：
+   - 直接拖拽文件到窗口
+   - 或点击"选择文件"按钮选择文件
+   - 点击"开始处理"按钮清除 EXIF 信息
+
+## 注意事项
+
+- 处理前建议备份重要文件
+- 支持的文件格式：jpg、jpeg、png、tiff
+- 程序会保持原始图片质量
+
+## 联系方式
+
+如有问题请通过 Telegram 联系：[@DiDumi](https://t.me/DiDumi)
+
+## 许可证
+
+MIT License
